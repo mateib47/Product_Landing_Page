@@ -9,25 +9,52 @@
     <header id="header">
       <img src="images/logo.png" id="header-img" alt="Bucur's Bakery">
       <nav id="nav-bar">
-        <a href="#" class="nav-link">Why choose us</a>
-        <a href="#" class="nav-link">How we make it</a>
-        <a href="#" class="nav-link">Pricing</a>
+        <a href="#about-us" class="nav-link">Why choose us</a>
+        <a href="#video" class="nav-link">How we make it</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
     </header>
     <main>
-      <div class="about-us">
-        <div class="about-us-item">
-          <img src="images/delivery-bike.png" alt="delivery bike" class="about-us-img">
-          <p class="about-us-text">bike delivery</p>
-        </div>
+      <div class="about-us" id="about-us">
         <div class="about-us-item">
           <img src="images/wheat.png" alt="wheat" class="about-us-img">
-          <p class="about-us-text">bike delivery</p>
+          <div class="about-us-text">
+            <h1>Organic ingredients</h1>
+            <p class="about-us-p">We use for our bread the best flour which is sourced locally.
+               This means that the bread contains the adequate level of vitamins and
+               minerals, essential for a healthy lifestyle</p>
+          </div>
         </div>
         <div class="about-us-item">
           <img src="images/person.png" alt="person" class="about-us-img">
-          <p class="about-us-text">bike delivery</p>
+          <div class="about-us-text">
+            <h1>Traditional bread-making techniques</h1>
+            <p class="about-us-p">Our bread is a lot different than the one from the supermarket.
+            The bread is hand made and there is a lot of work behind every loaf that we produce.</p>
+          </div>
         </div>
+        <div class="about-us-item">
+          <img src="images/delivery-bike.png" alt="delivery bike" class="about-us-img">
+          <div class="about-us-text">
+            <h1>Fast and eco-friendly delivery</h1>
+            <p class="about-us-p">For every purchase you make, we ensure that the fresh bread is
+            delivered to your doorstep, with the help of our bike couriers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <center><iframe id="video" width="550" height="315" src="https://www.youtube.com/embed/EGbNI26PPYg"
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe></center>
+      </div>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>Subscribe to our newsletter!</p>
+        <input id="email" type="email" placeholder="Enter your email" required name="email">
+        <input type="submit" name="submit" id="submit" value="submit">Submit</input>
+      </form>
+      <div id="pricing">
+        <h1>Our prices</h1>
       </div>
     </main>
     <footer>

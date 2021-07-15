@@ -31,30 +31,67 @@ a{
 .about-us-img{
   width: 20%;
   max-width: 100%;
-  height: auto;
+  height:  auto;
 }
 main{
+  margin: 0 20% 0 20%;
   padding-top: 12%;
+  max-width: 70%;
+  width: 60%;
 }
 .about-us{
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #F2D8A7;
-  margin: 35px;
   border-radius: 15px;
   padding: 15px;
 }
-.about-us-text{
-  text-align: right;
-  font-size: 180%;
-  align-self: center;
+.about-us-p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3vw;
+  font-style: italic;
 }
 .about-us-item{
   display: flex;
   flex-direction: row;
+  max-width: 100%;
+  height: auto;
+}
+.about-us-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1{
+  font-family: 'Trocchi', serif;
+  font-size: 2vw;
+  font-weight: normal;
+  white-space: nowrap;
+}
+iframe{
+  margin: 8% 0 8% 0;
+}
+#form{
+  text-align: center;
+}
+#email{
+  width: 40%;
+}
+#submit{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
-  main {
-
+  main{
+    margin: 0 0 0 0;
+    padding-top: 12%;
+    max-width: 100%;
+    width: 170%;
   }
 }
