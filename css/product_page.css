@@ -1,0 +1,60 @@
+body{
+  background-color: white;
+  font-family: times;
+}
+#header-img{
+  max-width: 100%;
+  width: 20%;
+  height: auto;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+nav{
+    font-size: 180%;
+    align-self: center;
+    background-color: #590902;
+    padding: 3.23%;
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    white-space: nowrap;
+}
+a{
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  padding-right: 30px;
+}
+.about-us-img{
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+}
+main{
+  padding-top: 12%;
+}
+.about-us{
+  display: flex;
+  flex-direction: column;
+  background-color: #F2D8A7;
+  margin: 35px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.about-us-text{
+  text-align: right;
+  font-size: 180%;
+  align-self: center;
+}
+.about-us-item{
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  main {
+
+  }
+}
