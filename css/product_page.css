@@ -12,6 +12,7 @@ header{
   display: flex;
   flex-direction: row;
   position: fixed;
+  width: 100%;
 }
 nav{
     font-size:2vw;
@@ -88,7 +89,25 @@ iframe{
   border-radius: 5px;
 }
 .pricing{
-  
+
+}
+footer{
+  background-color:#590902;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding: 1%;
+  /* FIXME: center the footer text vertically and reduce the height */
+}
+#footer-bar{
+}
+.footer-nav{
+  display: flex;
+  flex-direction: row;
+}
+#copyright{
 }
 @media screen and (max-width: 767px) {
   main{
@@ -101,7 +120,8 @@ iframe{
   body * {
    font-size: 4vw;
   }
-  .about-us-p {
+  .about-us-p,footer {
     font-size: 2vw;
   }
+
 }
