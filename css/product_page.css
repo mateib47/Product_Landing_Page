@@ -28,7 +28,7 @@ a{
   color: white;
   font-style: normal;
   text-decoration: none;
-  padding-right: 30px;
+  padding-right: 2vw;
 }
 .about-us-img{
   width: 20%;
@@ -123,5 +123,10 @@ footer{
   .about-us-p,footer {
     font-size: 2vw;
   }
-
+  .about-us-p{
+    font-size: 2vw;
+  }
+  #copyright, footer a{
+    font-size: 2vw;
+  }
 }
