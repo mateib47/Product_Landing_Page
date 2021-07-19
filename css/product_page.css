@@ -7,6 +7,8 @@ body{
   max-width: 100%;
   width: 20%;
   height: auto;
+  object-fit: cover;
+  vertical-align: center;
 }
 header{
   display: flex;
@@ -15,7 +17,7 @@ header{
   width: 100%;
 }
 nav{
-    font-size:2vw;
+    font-size:25px;
     align-self: center;
     background-color: #590902;
     padding: 3.43%;
@@ -30,34 +32,34 @@ a{
   text-decoration: none;
   padding-right: 2vw;
 }
-.about-us-img{
-  width: 20%;
-  max-width: 100%;
-  height:  auto;
-}
 main{
   margin: auto;
   padding-top: 12%;
   max-width: 60%;
 }
 .about-us{
-  max-width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #F2D8A7;
   border-radius: 15px;
   padding: 15px;
 }
-.about-us-p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.3vw;
-  font-style: italic;
-}
 .about-us-item{
   display: flex;
   flex-direction: row;
-  max-width: 100%;
-  height: auto;
+  flex-: 0;
+
+}
+.about-us-img{
+  max-width: 100%!important;
+  height: auto!important;
+  object-fit: contain;
+  vertical-align: center;
+}
+.about-us-p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-style: italic;
 }
 .about-us-text{
   display: flex;
@@ -66,9 +68,8 @@ main{
 }
 h1{
   font-family: 'Trocchi', serif;
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: normal;
-  white-space: nowrap;
 }
 iframe{
   margin: 8% 0 8% 0;
@@ -110,23 +111,41 @@ footer{
 #copyright{
 }
 @media screen and (max-width: 767px) {
+  #header-img{
+    width: 20%;
+    background-color: #590902;
+  }
   main{
-    max-width: 90%;
+    padding-top: 20%;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#590902;
+  }
+  nav{
+    white-space: normal;
+    text-align: center;
+    font-size: 20px;
+  }
+  .about-us{
+    margin-top: 30px;
+  }
+  .about-us-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-us-text{
+    align-items: center;
+  }
+  main{
+    max-width: 80%;
   }
   iframe{
     width: 300px;
     height: 200px;
   }
-  body * {
-   font-size: 4vw;
-  }
-  .about-us-p,footer {
-    font-size: 2vw;
-  }
-  .about-us-p{
-    font-size: 2vw;
-  }
-  #copyright, footer a{
-    font-size: 2vw;
-  }
+
 }
